@@ -1,5 +1,5 @@
 # Deadlock_Multiplayer
-This code allows Deadlock: Planetary Conquest to be played online over TCP Sockets.
+This code allows Deadlock: Planetary Conquest to be played online over TCP Sockets. Put these 4 DLLs in the Deadlock folder.
 
 Known issues:
 1) If there are more than 2 human players, and the host player disconnects, the other 2 players will no longer be able to play. No current way to switch masters.
