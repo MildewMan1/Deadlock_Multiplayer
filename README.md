@@ -23,4 +23,4 @@ Change Log:
 Note: If the host has enabled the "Kill AI" command, Deadlock will still save a copy of the game before it destroys the disconnected player's colony.
 
 10/20/2020 - 1.0.0.0 
-1) Initial Release
+1) Initial Release - no longer available for download due to lack of DLL version checking.
