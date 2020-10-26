@@ -1,10 +1,11 @@
 # Deadlock_Multiplayer
-This code allows Deadlock: Planetary Conquest to be played online over TCP Sockets. Put these 4 DLLs in the Deadlock folder. (These are for version 1.31 only!)
+This code allows Deadlock: Planetary Conquest to be played online over TCP Sockets. Currently DLLs are only being released for version 1.31.
+
+You will need to download the 2 SFML library dlls, and a set of the "WING32" and "DLTCP" dlls (from same version) and put them into your Deadlock folder. If you are playing the GOG version of Deadlock, you will need to perform the GOG multiplayer patch found on the Gallius IV forums (http://forum.galliusiv.com/viewtopic.php?f=4&t=351&sid=9ac01f392614f1f161dd75da350f7344), which will add the multiplayer game button back to the main menu dialog.
 
 Known issues:
 1) If there are more than 2 human players, and the host player disconnects, the other 2 players will no longer be able to play. No current way to switch masters.
-2) If a player disconnects before everyone has selected a race, Deadlock will show a message box saying "The player controlling the ChCh't has disconnected".
-3) Unsure how stable a 3+ player game will be.
+2) Unsure how a 3+ player game will play.
 
 Because of the way Deadlock was originally made, the developers recommended not playing multiplayer games with AI players because they will lag the host.
 If you are hosting a game, you can press Ctrl + F1 to bring up the command dialog box in a multiplayer game. If you input the code 
