@@ -16,9 +16,9 @@ any AI that were in the game before the code was input. You will need to input t
 
 Change Log:
 10/26/2020 - 1.0.0.1
-•Added DLL Version Checks to prevent players with different versions from playing together and causing problems.
-•Added the ability for users to choose a username that will be used at various points. Currently it is only used to notify other players when someone has disconnected. (Currently may only show the name to the host player or to the clients if the host disconnects. Need to do some extra work to notify other clients when a client disconnects.)
-•If someone disconnects from the game, Deadlock will automatically save a copy of the game to the Deadlock folder in the form of "NetGameSaveX.Sav", where X is a number. X will start at 0 and increment until it finds a save game name that is available.
+1) Added DLL Version Checks to prevent players with different versions from playing together and causing problems.
+2) Added the ability for users to choose a username that will be used at various points. Currently it is only used to notify other players when someone has disconnected. (Currently may only show the name to the host player or to the clients if the host disconnects. Need to do some extra work to notify other clients when a client disconnects.)
+3) If someone disconnects from the game, Deadlock will automatically save a copy of the game to the Deadlock folder in the form of "NetGameSaveX.Sav", where X is a number. X will start at 0 and increment until it finds a save game name that is available.
 
 10/20/2020 - 1.0.0.0 
-•Initial Release
+1) Initial Release
