@@ -19,7 +19,8 @@ Change Log:
 10/26/2020 - 1.0.0.1
 1) Added DLL Version Checks to prevent players with different versions from playing together and causing problems.
 2) Added the ability for users to choose a username that will be used at various points. Currently it is only used to notify other players when someone has disconnected. (Currently may only show the name to the host player or to the clients if the host disconnects. Need to do some extra work to notify other clients when a client disconnects.)
-3) If someone disconnects from the game, Deadlock will automatically save a copy of the game to the Deadlock folder in the form of "NetGameSaveX.Sav", where X is a number. X will start at 0 and increment until it finds a save game name that is available.
+3) If someone disconnects from the game, Deadlock will automatically save a copy of the game to the Deadlock folder in the form of "NetGameSaveX.Sav", where X is a number. X will start at 0 and increment until it finds a save game name that is available. 
+Note: If the host has enabled the "Kill AI" command, Deadlock will still save a copy of the game before it destroys the disconnected player's colony.
 
 10/20/2020 - 1.0.0.0 
 1) Initial Release
